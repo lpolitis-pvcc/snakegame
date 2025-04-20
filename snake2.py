@@ -10,7 +10,7 @@ GRID_SIZE = 20
 WIDTH = HEIGHT = CELL_SIZE * GRID_SIZE
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Snake Game")
+pygame.display.set_caption("Leo's Snake Game")
 
 clock = pygame.time.Clock()
 font = pygame.font.SysFont(None, 36)
